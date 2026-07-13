@@ -1,0 +1,54 @@
+Week 6 App Dev Pipeline Progress
+
+Name / Team:”Sihak Svang”
+
+1. Genre
+My genre is:”Horror”
+I chose this genre because:My son's birthday is 25th of October and we're big fans of Halloween.
+
+2. Story or Backstory
+My app idea came from… A movie called “Five Nights of Freddy" My son loves that movie.
+
+3. User Need
+The user needs…”Open or Closed button.” 
+
+4. Product Definition
+I am building… Just the UI and an open or closed button.
+
+5. Variables
+The main information containers are...
+-doorClosed-
+-doorOpen-
+
+6. Functions / Procedures
+The main actions are...
+Functions- “IsDoorClosed”
+           “IsDoorOpen”
+
+Procedures-”ClosedDoor”
+            “OpenDoor”
+
+7. Hat Strategy
+This week I worked in these hats:
+- Story hat:Started finding UI for the Apps.
+- Logical hat:Finding out how many buttons to add on apps.
+- Visual hat:Trying to figure out what the apps are doing.
+- Programmer hat:Watch tutorial video about VB.Net on Folder Maker App, showing how to create project folder and README.txt files. 
+- Tester hat:Tested weather folder Maker App created the Docs folder, Assets folder, and README.txt files correctly. 
+
+8. Folder Maker App Progress
+What works:The folder maker app created all files.
+What I am still fixing:Making sure I correctly organized all files for submission.
+ 
+What I tested: Tested Apps created the right folder and README,txt files.
+
+9. Git Repository Link
+Paste link here:
+
+
+10. Study Notes
+One thing I learned about functions, procedures, data types, loops, JSON, SQL, or Git: I learned Functions can accept arguments and return one or more values.
+Procedures can accept arguments but do not return any values.  
+
+11. Screenshot Proof
+Attach screenshots of the app, generated folders/files, README, Git repo, and this Discord post.
