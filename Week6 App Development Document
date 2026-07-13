@@ -1,0 +1,183 @@
+# Week 6 App Development Document
+
+## Project / Team
+
+Project name: “Five Nights At Freddy”s” 
+
+Student name(s): Sihak Svang 
+
+Team strategy: “Individual Project”
+
+If you are working with a team, list every team member and explain who is responsible for each part. If you are working alone, write "Individual project."
+
+## 0. Genre
+
+Choose one genre and name it clearly.
+
+Genre:Horror
+
+Choose from Anime, Music, Movie, Horror, or another genre you identify.
+
+Explain why this genre fits your app idea:
+
+## 1. Backstory
+
+Describe the world and context. This may be real, fantasy, science fiction, personal, professional, or practical.
+
+What happened before the app existed? It was a family pizza restaurant with animatronic animal mascots that entertained children during the day.
+
+Who lives or works in this world? The security guard, and the four mascots named Freddy Fazbear who is the main character, Bonnie, Chica, Foxy. 
+
+What pressure, problem, confusion, or need exists? Security guards need to survive from 12:00 am to 6:00 am. Watch security cameras, Manage limited power, close or use other defenses to keep the animatronics out. 
+
+## 2. Story / User Need
+
+Who is the user? Security guards 
+
+What does the user need? Survival skill
+
+What problem are they trying to solve? If the animatronic animal mascots killing the kids.
+
+Why does this matter to them? Kids are missing every time they go there.
+
+## 3. Product Definition
+
+What are you building inside the story? A security guard is trying to survive his night shift.
+
+What will the app help the user do? Help find the missing children.
+
+What is the smallest useful version of this app? Five Nights Of Freddy’s apps.
+
+## 4. Variables
+
+List containers of information your app may need.
+
+| Variable Name |            | Data Type |  
+ -animatronic Name-      -String-   
+ -NightNumber-          -Integer-    
+ -doorClosed-           -Boolean-   
+ -powerRemaining-         -Decimal-   
+ -gameStartTime-           -Date-      
+
+
+
+
+
+
+
+
+| What It Stores |
+-Store txt,ainmatronic’s name-
+-store number,current night-   
+-Store True/False values-  
+-store decimals,power percentage-                           -Date/time when game start-
+
+
+
+Example Value |
+-Freddy’s-
+-3-
+-True-
+-50%-
+-07/4/2026-
+
+| projectName | String | Name of the project folder | GardenBot |
+| folderCount | Integer | Number of folders created | 6 |
+| isComplete | Boolean | Whether setup is finished | True |
+
+## 5. Functions and Procedures
+
+List actions the app needs to perform.
+
+| Function / 
+-GetpowerLevel()-
+-IsDoorClosed()-
+-GetCurrentNight()-
+-GetAnimatronicName()-
+-CheckGameOver()-
+
+
+| Procedure | 
+-StartGame()-
+-ClosedDoor()-
+-openDoor()-
+-ResetGame()-
+-ShowStatus()-
+
+
+
+
+| Purpose |
+-Returns the current power percentage-
+-Returns whether the security door is closed-
+-Return the current night number-
+-Return the selected animatronic’s name-
+-Return true/false if game over-
+ 
+
+
+
+| Input |
+-User select Night 1-
+-User click Close Door-
+-User click Open Door-
+-User click Check Camera-
+-Power reach 0%-
+
+| Output|
+-”Night 1 Started”-
+-”Door Closed”-
+-”Door open”-
+-”Camera 2: Freddy’s detected”-
+-”Game Over”-
+
+| Result |
+-The game begins on Night 1-
+-The security door closes to protect the player-
+-The security door opens and uses less power-
+-The player sees where the animatronic is located-
+-The Game ends because all power has been used-
+
+
+
+
+
+| --- | --- | --- | --- |
+| CreateProjectFolders | Creates the folder structure | project path | Folders are created |
+| BuildReadMeText | Creates README content | project name | README text |
+| ValidateProjectName | Checks that the name is usable | project name | True or False |
+
+## 6. Questions and Answers
+
+Identify possible problems before coding.
+
+Question: What would the UI look like?
+
+Answer or plan:Something of the Five nights of Freedy’s movies. 
+
+Question:How many characters are going to be in the game?? 
+
+Answer or plan:Only 2, the security guard, and Freddy’s.
+
+Question:What is the age limit when playing these apps?
+
+Answer or plan:No age limit.
+
+## 7. Execution Strategy
+
+What will you build first?The UI.
+
+How will you test it? Whenever I am done with it.
+
+What screenshots will prove it works?When I am done with it.
+
+What will you refactor or clean up if you have time? Probably add more characters later.
+
+## 8. Git Repository
+
+Repository link:
+
+What files should the instructor grade?The finishing project. 
+
+What files should the instructor ignore?Probably the screen shot part.
+ 
